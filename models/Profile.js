@@ -116,5 +116,5 @@ const ProfileSchema = new Schema({
     default: Date.now
   }
 });
-
+// we are creating moongose model and put profileSchema.
 module.exports = Profile = mongoose.model("profile", ProfileSchema);
